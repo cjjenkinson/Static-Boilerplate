@@ -2,7 +2,7 @@
 
 # Pre Front-end Boilerplate
 
-A very lightweight front-end boilerplate for kicking off a project, no pre-processors or workflow automation tools just single page template and style structure utulising CSS variables for maximum flexibility and speed, hence the name pre.
+A very lightweight front-end boilerplate for kicking off a project, no pre-processors or workflow automation tools. Get going with a single page template and style structure utilising CSS variables for maximum flexibility and speed.
 
 Whenever starting a new project I often need to get a single index page and style structure in place. This is the boilerplate that I always arrive at whenever starting from scratch.
 
@@ -12,8 +12,8 @@ Whenever starting a new project I often need to get a single index page and styl
 +-- css
 |   +-- app-name.css
 |   +-- base.css
-|	+-- normalize.css
-|	+-- variables.css
+|	  +-- normalize.css
+|	  +-- variables.css
 +-- .gitignore
 +-- index.html
 ```
@@ -22,17 +22,17 @@ Whenever starting a new project I often need to get a single index page and styl
 
 `app-name.css`
 
-Update app-name.css to the name of the project, then reflect the change on the index.html stylesheet link.
-
 Imports all CSS files which is linked to from index.html
+
+Update app-name.css to the name of the project, then reflect the change on the index.html stylesheet link.
 
 `base.css`
 
-Contains base styles and resets such as body, typography etc
+Contains base styles and resets such as body, typography etc.
 
 `normalize.css`
 
-Makes browsers render all elements more consistently and in line with modern standard
+Makes browsers render all elements more consistently and in line with modern standard.
 
 `variables.css`
 
