@@ -1,0 +1,21 @@
+/* Base
+=============================================================== */
+
+/* Box sizing reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+::placeholder {
+    color: var(--placeholder-color);
+}
